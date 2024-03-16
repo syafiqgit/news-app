@@ -1,10 +1,10 @@
 export type Response = {
   status: string;
   totalResults: number;
-  articles: articlesType[];
+  articles: ArticlesType[];
 };
 
-export interface articlesType {
+export interface ArticlesType {
   source: {
     id: number;
     name: string;
